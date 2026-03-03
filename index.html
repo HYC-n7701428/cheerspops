@@ -7,7 +7,7 @@
 	<meta content="website" property="og:type" />
 	<meta content="" property="og:description" />
 	<meta content="" property="og:url" />
-	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1514838/1501899/2564123/14035290_large.jpg" property="og:image" />
+	<meta content="https://pro-bee-beepro-thumbnail.getbee.io/messages/1521893/1508980/2573109/14107908_large.jpg" property="og:image" />
 	<meta content="" property="og:title" />
 	<meta content="" name="description" />
 	<meta charset="utf-8" />
@@ -19,14 +19,9 @@
 			position: relative
 		}
 
-		.bee-row-1,
-		.bee-row-11,
-		.bee-row-12,
-		.bee-row-2,
-		.bee-row-4,
-		.bee-row-5,
-		.bee-row-6,
-		.bee-row-7 {
+		.bee-row-3,
+		.bee-row-3 .bee-row-content {
+			background-size: auto;
 			background-repeat: no-repeat
 		}
 
@@ -36,11 +31,10 @@
 			font-family: Arial, Helvetica Neue, Helvetica, sans-serif
 		}
 
+		.bee-row-10 .bee-col-2 .bee-block-3 a,
+		.bee-row-10 .bee-col-2 .bee-block-4 a,
 		.bee-row-4 .bee-col-1 .bee-block-2 a,
-		.bee-row-4 .bee-col-1 .bee-block-3 a,
-		.bee-row-5 .bee-col-1 .bee-block-2 a,
-		.bee-row-8 .bee-col-2 .bee-block-2 a,
-		.bee-row-8 .bee-col-2 .bee-block-3 a,
+		.bee-row-5 .bee-col-1 .bee-block-1 a,
 		a {
 			color: #d56533
 		}
@@ -65,8 +59,16 @@
 			flex-basis: 16.6666666667%
 		}
 
+		.bee-row-content .bee-col-w3 {
+			flex-basis: 25%
+		}
+
 		.bee-row-content .bee-col-w4 {
 			flex-basis: 33.3333333333%
+		}
+
+		.bee-row-content .bee-col-w6 {
+			flex-basis: 50%
 		}
 
 		.bee-row-content .bee-col-w8 {
@@ -96,9 +98,11 @@
 			margin: 0 auto
 		}
 
-		.bee-row-10 .bee-col-1 .bee-block-1,
+		.bee-row-10 .bee-col-2 .bee-block-1,
+		.bee-row-13 .bee-col-1 .bee-block-1,
+		.bee-row-13 .bee-col-1 .bee-block-2,
 		.bee-row-3 .bee-col-1 .bee-block-1,
-		.bee-row-6 .bee-col-1 .bee-block-1 {
+		.bee-row-8 .bee-col-2 .bee-block-1 {
 			width: 100%
 		}
 
@@ -125,9 +129,26 @@
 			max-height: 32px
 		}
 
+		.bee-row-1,
+		.bee-row-10,
+		.bee-row-11,
+		.bee-row-12,
+		.bee-row-13,
+		.bee-row-14,
+		.bee-row-2,
+		.bee-row-4,
+		.bee-row-5,
+		.bee-row-6,
+		.bee-row-7,
+		.bee-row-8,
+		.bee-row-9 {
+			background-repeat: no-repeat
+		}
+
 		.bee-row-1 .bee-row-content,
+		.bee-row-10 .bee-row-content,
 		.bee-row-4 .bee-row-content,
-		.bee-row-7 .bee-row-content {
+		.bee-row-9 .bee-row-content {
 			background-color: #f4f1eb;
 			background-repeat: no-repeat;
 			color: #000000
@@ -140,70 +161,65 @@
 			color: #000000
 		}
 
-		.bee-row-3 .bee-row-content,
-		.bee-row-8,
-		.bee-row-9 {
-			background-color: #f4f1eb;
-			background-repeat: no-repeat
-		}
-
 		.bee-row-2 .bee-col-1 .bee-block-1 {
-			padding: 10px 5px 15px;
+			padding: 20px;
 			width: 100%
 		}
 
-		.bee-row-10,
-		.bee-row-3 {
-			background-repeat: no-repeat;
-			background-size: auto
-		}
-
 		.bee-row-3 .bee-row-content {
+			background-color: #f4f1eb;
 			background-image: url('https://d1oco4z2z1fhwp.cloudfront.net/templates/default/7336/hero-image-20.png');
 			background-position: top center;
-			background-size: auto;
 			color: #000000
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-2,
-		.bee-row-5 .bee-col-1 .bee-block-2 {
-			padding: 10px 20px
-		}
-
-		.bee-row-4 .bee-col-1 .bee-block-3,
-		.bee-row-5 .bee-col-1 .bee-block-3,
-		.bee-row-5 .bee-col-1 .bee-block-4,
-		.bee-row-5 .bee-col-1 .bee-block-5,
-		.bee-row-5 .bee-col-1 .bee-block-6,
-		.bee-row-6 .bee-col-1 .bee-block-6,
-		.bee-row-8 .bee-col-2 .bee-block-2 {
-			padding: 10px
+		.bee-row-4 .bee-col-1 .bee-block-2 {
+			padding-bottom: 10px;
+			padding-left: 10px;
+			padding-right: 10px
 		}
 
 		.bee-row-5 .bee-row-content,
-		.bee-row-6 .bee-row-content {
+		.bee-row-6 .bee-row-content,
+		.bee-row-7 .bee-row-content,
+		.bee-row-8 .bee-row-content {
 			background-color: #f4f1eb;
 			background-repeat: no-repeat;
 			border-radius: 0;
 			color: #000000
 		}
 
-		.bee-row-5 .bee-col-1 {
-			padding: 20px
-		}
-
-		.bee-row-13 .bee-col-1,
+		.bee-row-10 .bee-col-1,
+		.bee-row-10 .bee-col-2,
+		.bee-row-10 .bee-col-3,
+		.bee-row-12 .bee-col-1,
+		.bee-row-12 .bee-col-2,
+		.bee-row-12 .bee-col-3,
+		.bee-row-15 .bee-col-1,
+		.bee-row-5 .bee-col-1,
 		.bee-row-6 .bee-col-1,
-		.bee-row-8 .bee-col-1,
-		.bee-row-8 .bee-col-2,
+		.bee-row-7 .bee-col-1,
 		.bee-row-8 .bee-col-3 {
 			padding-bottom: 5px;
 			padding-top: 5px
 		}
 
-		.bee-row-6 .bee-col-1 .bee-block-3 {
-			padding-top: 15px;
-			width: 100%
+		.bee-row-10 .bee-col-2 .bee-block-3,
+		.bee-row-11 .bee-col-2 .bee-block-2,
+		.bee-row-12 .bee-col-1 .bee-block-2,
+		.bee-row-12 .bee-col-2 .bee-block-2,
+		.bee-row-12 .bee-col-3 .bee-block-2,
+		.bee-row-14 .bee-col-1 .bee-block-1,
+		.bee-row-5 .bee-col-1 .bee-block-1,
+		.bee-row-5 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-1 .bee-block-1,
+		.bee-row-6 .bee-col-1 .bee-block-2,
+		.bee-row-6 .bee-col-1 .bee-block-3,
+		.bee-row-6 .bee-col-1 .bee-block-4,
+		.bee-row-7 .bee-col-1 .bee-block-1,
+		.bee-row-7 .bee-col-1 .bee-block-2,
+		.bee-row-7 .bee-col-1 .bee-block-3 {
+			padding: 10px
 		}
 
 		.bee-row-6 .bee-col-1 .bee-block-5 {
@@ -212,87 +228,81 @@
 			width: 100%
 		}
 
-		.bee-row-7 .bee-col-1 .bee-block-1 {
-			padding: 20px 10px;
-			text-align: center
-		}
-
-		.bee-row-11 .bee-row-content,
-		.bee-row-8 .bee-row-content,
-		.bee-row-9 .bee-row-content {
-			background-color: #cea8a8;
-			background-repeat: no-repeat;
-			color: #000000
-		}
-
-		.bee-row-8 .bee-col-2 .bee-block-3 {
+		.bee-row-10 .bee-col-2 .bee-block-4 {
 			padding: 10px 20px 30px
 		}
 
-		.bee-row-9 .bee-col-1,
-		.bee-row-9 .bee-col-2,
-		.bee-row-9 .bee-col-3 {
-			padding: 5px 10px
-		}
-
-		.bee-row-9 .bee-col-1 .bee-block-1,
-		.bee-row-9 .bee-col-2 .bee-block-1,
-		.bee-row-9 .bee-col-3 .bee-block-1 {
-			padding: 5px;
-			width: 100%
-		}
-
-		.bee-row-9 .bee-col-1 .bee-block-2,
-		.bee-row-9 .bee-col-2 .bee-block-2,
-		.bee-row-9 .bee-col-3 .bee-block-2 {
+		.bee-row-10 .bee-col-2 .bee-block-5,
+		.bee-row-13 .bee-col-1 .bee-block-3 {
 			padding: 10px;
 			text-align: center
 		}
 
-		.bee-row-10 .bee-row-content {
+		.bee-row-11 .bee-row-content,
+		.bee-row-13 .bee-row-content {
 			background-color: #cea8a8;
 			background-repeat: no-repeat;
-			background-size: auto;
-			border-radius: 0;
 			color: #000000
 		}
 
-		.bee-row-11 .bee-col-1 {
-			padding: 30px 20px 10px
-		}
-
-		.bee-row-11 .bee-col-1 .bee-block-1 {
-			padding-bottom: 5px;
-			width: 100%
+		.bee-row-11 .bee-col-1,
+		.bee-row-11 .bee-col-2,
+		.bee-row-11 .bee-col-3 {
+			padding: 5px 10px
 		}
 
 		.bee-row-11 .bee-col-1 .bee-block-2 {
 			padding-bottom: 5px;
-			text-align: center
+			padding-top: 10px
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-3,
+		.bee-row-11 .bee-col-3 .bee-block-2 {
+			padding-bottom: 10px
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-1 {
+			padding: 15px;
+			text-align: center;
+			width: 100%
+		}
+
+		.bee-row-11 .bee-col-3 .bee-block-1 {
+			padding: 10px 10px 5px
 		}
 
 		.bee-row-12 .bee-row-content {
+			background-color: #cea8a8;
+			background-repeat: no-repeat;
+			border-radius: 0;
+			color: #000000
+		}
+
+		.bee-row-12 .bee-col-1 .bee-block-1,
+		.bee-row-12 .bee-col-2 .bee-block-1,
+		.bee-row-12 .bee-col-3 .bee-block-1 {
+			padding: 5px;
+			width: 100%
+		}
+
+		.bee-row-14 .bee-row-content {
 			background-color: #cea8a8;
 			background-repeat: no-repeat;
 			border-radius: 0 0 20px 20px;
 			color: #000000
 		}
 
-		.bee-row-13,
-		.bee-row-13 .bee-row-content {
+		.bee-row-15,
+		.bee-row-15 .bee-row-content {
 			background-color: #ffffff;
 			background-repeat: no-repeat
 		}
 
-		.bee-row-12 .bee-col-1 .bee-block-1 {
-			padding: 10px 10px 15px
-		}
-
-		.bee-row-13 .bee-row-content {
+		.bee-row-15 .bee-row-content {
 			color: #000000
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-1 {
+		.bee-row-15 .bee-col-1 .bee-block-1 {
 			color: #1e0e4b;
 			font-family: Inter, sans-serif;
 			font-size: 15px;
@@ -301,125 +311,143 @@
 			text-align: center
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-2,
-		.bee-row-5 .bee-col-1 .bee-block-2,
-		.bee-row-5 .bee-col-1 .bee-block-4,
-		.bee-row-5 .bee-col-1 .bee-block-6 {
-			font-family: "Droid Serif", Georgia, Times, "Times New Roman", serif;
-			text-align: center;
+		.bee-row-6 .bee-col-1 .bee-block-1 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 16px;
 			font-weight: 400;
-			direction: ltr
+			letter-spacing: 0;
+			line-height: 180%;
+			text-align: center
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-2 a,
+		.bee-row-12 .bee-col-1 .bee-block-2 a,
+		.bee-row-12 .bee-col-2 .bee-block-2 a,
+		.bee-row-12 .bee-col-3 .bee-block-2 a,
+		.bee-row-6 .bee-col-1 .bee-block-1 a,
+		.bee-row-6 .bee-col-1 .bee-block-3 a,
+		.bee-row-7 .bee-col-1 .bee-block-2 a {
+			color: #7747FF
+		}
+
+		.bee-row-10 .bee-col-2 .bee-block-3 p:not(:last-child),
+		.bee-row-10 .bee-col-2 .bee-block-4 p:not(:last-child),
+		.bee-row-11 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-11 .bee-col-1 .bee-block-3 p:not(:last-child),
+		.bee-row-11 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-11 .bee-col-3 .bee-block-1 p:not(:last-child),
+		.bee-row-11 .bee-col-3 .bee-block-2 p:not(:last-child),
+		.bee-row-4 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-5 .bee-col-1 .bee-block-1 p:not(:last-child),
+		.bee-row-6 .bee-col-1 .bee-block-1 p:not(:last-child) {
+			margin-bottom: 16px
+		}
+
+		.bee-row-4 .bee-col-1 .bee-block-2,
+		.bee-row-5 .bee-col-1 .bee-block-1,
+		.bee-row-6 .bee-col-1 .bee-block-3 {
+			direction: ltr;
+			font-weight: 400;
+			line-height: 120%;
+			text-align: center
 		}
 
 		.bee-row-4 .bee-col-1 .bee-block-2 {
 			color: #cea8a8;
-			font-size: 34px;
-			letter-spacing: 0;
-			line-height: 120%
+			font-family: "Droid Serif", Georgia, Times, "Times New Roman", serif;
+			font-size: 26px;
+			letter-spacing: 0
 		}
 
-		.bee-row-4 .bee-col-1 .bee-block-2 p:not(:last-child),
-		.bee-row-4 .bee-col-1 .bee-block-3 p:not(:last-child),
-		.bee-row-5 .bee-col-1 .bee-block-2 p:not(:last-child),
-		.bee-row-5 .bee-col-1 .bee-block-4 p:not(:last-child),
-		.bee-row-5 .bee-col-1 .bee-block-6 p:not(:last-child),
-		.bee-row-6 .bee-col-1 .bee-block-6 p:not(:last-child),
-		.bee-row-8 .bee-col-2 .bee-block-2 p:not(:last-child),
-		.bee-row-8 .bee-col-2 .bee-block-3 p:not(:last-child) {
-			margin-bottom: 16px
-		}
-
-		.bee-row-4 .bee-col-1 .bee-block-3 {
+		.bee-row-5 .bee-col-1 .bee-block-1 {
 			color: #cea8a8;
-			direction: ltr;
-			font-size: 18px;
+			font-size: 12px;
+			letter-spacing: 5px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-3 {
+			color: #393d47;
+			font-size: 16px;
+			letter-spacing: 0
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-3 p:not(:last-child) {
+			margin-bottom: 13px
+		}
+
+		.bee-row-6 .bee-col-1 .bee-block-5 h1,
+		.bee-row-7 .bee-col-1 .bee-block-2 {
+			font-size: 16px;
+			line-height: 200%;
+			color: #393d47;
 			font-weight: 400;
-			letter-spacing: 5px;
-			line-height: 120%;
+			direction: ltr
+		}
+
+		.bee-row-7 .bee-col-1 .bee-block-2 {
+			letter-spacing: 0;
 			text-align: center
 		}
 
-		.bee-row-5 .bee-col-1 .bee-block-2 {
-			color: #393d47;
-			font-size: 16px;
-			letter-spacing: 0;
-			line-height: 150%
-		}
-
-		.bee-row-5 .bee-col-1 .bee-block-4,
-		.bee-row-5 .bee-col-1 .bee-block-6 {
-			color: #393d47;
-			font-size: 16px;
-			letter-spacing: 0;
-			line-height: 120%
-		}
-
-		.bee-row-5 .bee-col-1 .bee-block-4 a,
-		.bee-row-5 .bee-col-1 .bee-block-6 a {
-			color: #7747FF
-		}
-
-		.bee-row-6 .bee-col-1 .bee-block-6 {
-			color: #393d47;
-			direction: ltr;
-			font-size: 18px;
-			font-weight: 400;
-			letter-spacing: 0;
-			line-height: 120%;
-			text-align: center
-		}
-
-		.bee-row-6 .bee-col-1 .bee-block-6 a {
-			color: #e5cacc
+		.bee-row-7 .bee-col-1 .bee-block-2 p:not(:last-child) {
+			margin-bottom: 0
 		}
 
 		.bee-row-6 .bee-col-1 .bee-block-5 h1 {
-			color: #393d47;
-			direction: ltr;
 			font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-			font-size: 30px;
-			font-weight: 700;
 			letter-spacing: normal;
-			line-height: 120%;
 			text-align: center
 		}
 
-		.bee-row-8 .bee-col-2 .bee-block-2 {
-			color: #ffffff;
+		.bee-row-10 .bee-col-2 .bee-block-3 {
+			color: #393d47;
 			direction: ltr;
 			font-family: Georgia, Times, "Times New Roman", serif;
-			font-size: 32px;
+			font-size: 26px;
 			font-weight: 400;
 			letter-spacing: 0;
 			line-height: 120%;
 			text-align: center
 		}
 
-		.bee-row-8 .bee-col-2 .bee-block-3 {
-			color: #ffffff;
+		.bee-row-10 .bee-col-2 .bee-block-4 {
+			color: #393d47;
 			direction: ltr;
-			font-size: 20px;
+			font-size: 16px;
 			font-weight: 400;
 			letter-spacing: 0;
 			line-height: 150%;
 			text-align: center
 		}
 
-		.bee-row-9 .bee-col-1 .bee-block-2 a,
-		.bee-row-9 .bee-col-2 .bee-block-2 a,
-		.bee-row-9 .bee-col-3 .bee-block-2 a {
-			background-color: #cea8a8;
-			border-radius: 0;
+		.bee-row-11 .bee-col-1 .bee-block-3,
+		.bee-row-11 .bee-col-3 .bee-block-2 {
+			color: #393d47;
+			direction: ltr;
+			font-size: 14px;
+			font-weight: 400;
+			letter-spacing: 0;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-11 .bee-col-1 .bee-block-2 a,
+		.bee-row-11 .bee-col-1 .bee-block-3 a,
+		.bee-row-11 .bee-col-3 .bee-block-1 a,
+		.bee-row-11 .bee-col-3 .bee-block-2 a {
+			color: #8a3b8f
+		}
+
+		.bee-row-11 .bee-col-2 .bee-block-1 h1 {
 			color: #ffffff;
 			direction: ltr;
-			font-family: inherit;
-			font-size: 18px;
-			font-weight: 400;
-			letter-spacing: 1px;
-			line-height: 200%;
-			padding-left: 20px;
-			padding-right: 20px;
-			width: auto
+			font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+			font-size: 25px;
+			font-weight: 700;
+			letter-spacing: normal;
+			line-height: 120%;
+			text-align: left
 		}
 
 		@media (max-width:768px) {
@@ -427,77 +455,75 @@
 				display: block
 			}
 
-			.bee-row-4 .bee-col-1 .bee-block-2 {
-				font-size: 19px !important
-			}
-
-			.bee-row-4 .bee-col-1 .bee-block-3 {
-				padding: 10px 10px 0 !important;
-				font-size: 10px !important
-			}
-
-			.bee-row-5 .bee-col-1 .bee-block-2 {
-				padding: 0 20px 10px !important;
-				font-size: 12px !important
-			}
-
-			.bee-row-5 .bee-col-1 .bee-block-3,
-			.bee-row-5 .bee-col-1 .bee-block-5 {
+			.bee-row-5 .bee-col-1 .bee-block-2,
+			.bee-row-6 .bee-col-1 .bee-block-2,
+			.bee-row-6 .bee-col-1 .bee-block-4,
+			.bee-row-7 .bee-col-1 .bee-block-1,
+			.bee-row-7 .bee-col-1 .bee-block-3 {
 				padding: 10px !important
 			}
 
-			.bee-row-5 .bee-col-1 .bee-block-3 .bee-separator,
-			.bee-row-5 .bee-col-1 .bee-block-5 .bee-separator,
-			.bee-row-6 .bee-col-1 .bee-block-1 img {
+			.bee-row-5 .bee-col-1 .bee-block-2 .bee-separator,
+			.bee-row-6 .bee-col-1 .bee-block-2 .bee-separator,
+			.bee-row-6 .bee-col-1 .bee-block-4 .bee-separator,
+			.bee-row-7 .bee-col-1 .bee-block-1 .bee-separator,
+			.bee-row-7 .bee-col-1 .bee-block-3 .bee-separator {
 				float: none !important;
 				margin: 0 auto !important
 			}
 
-			.bee-row-5 .bee-col-1 .bee-block-4,
-			.bee-row-5 .bee-col-1 .bee-block-6 {
+			.bee-row-6 .bee-col-1 .bee-block-1,
+			.bee-row-6 .bee-col-1 .bee-block-3,
+			.bee-row-7 .bee-col-1 .bee-block-2 {
 				padding: 10px !important;
 				text-align: center !important;
 				font-size: 12px !important
 			}
 
-			.bee-row-6 .bee-col-1 .bee-block-6 {
-				padding: 10px !important;
-				text-align: center !important;
-				font-size: 14px !important
+			.bee-row-4 .bee-col-1 .bee-block-2 {
+				font-size: 18px !important
 			}
 
-			.bee-row-11 .bee-col-1 .bee-block-2,
-			.bee-row-6 .bee-col-1 .bee-block-1 {
-				padding: 0 !important
+			.bee-row-5 .bee-col-1 .bee-block-1 {
+				font-size: 10px !important
 			}
 
 			.bee-row-6 .bee-col-1 .bee-block-5 h1 {
-				font-size: 22px
+				font-size: 12px
 			}
 
-			.bee-row-8 .bee-col-2 .bee-block-2 {
-				font-size: 24px !important
+			.bee-row-10 .bee-col-2 .bee-block-3 {
+				font-size: 22px !important
 			}
 
-			.bee-row-8 .bee-col-2 .bee-block-3 {
-				font-size: 17px !important
+			.bee-row-10 .bee-col-2 .bee-block-4 {
+				font-size: 14px !important
 			}
 
-			.bee-row-7 .bee-col-1 .bee-block-1 .bee-button-content {
+			.bee-row-11 .bee-col-2 .bee-block-1 {
+				text-align: center
+			}
+
+			.bee-row-11 .bee-col-2 .bee-block-1 h1 {
+				font-size: 21px;
+				text-align: center
+			}
+
+			.bee-row-10 .bee-col-2 .bee-block-5 .bee-button-content {
 				font-size: initial !important;
 				line-height: normal !important;
 				text-align: center !important
 			}
 
-			.bee-row-7 .bee-col-1 .bee-block-1 a,
-			.bee-row-7 .bee-col-1 .bee-block-1 span {
+			.bee-row-10 .bee-col-2 .bee-block-5 a,
+			.bee-row-10 .bee-col-2 .bee-block-5 span {
 				text-align: center !important;
 				font-size: 10px !important;
 				line-height: auto !important
 			}
 		}
 
-		.bee-row-7 .bee-col-1 .bee-block-1 a {
+		.bee-row-10 .bee-col-2 .bee-block-5 a {
 			background-color: #cea8a8;
 			border-bottom: 1px solid #675751;
 			border-left: 1px solid #675751;
@@ -507,7 +533,7 @@
 			color: #ffffff;
 			direction: ltr;
 			font-family: inherit;
-			font-size: 12px;
+			font-size: 14px;
 			font-weight: 400;
 			letter-spacing: 1px;
 			line-height: 200%;
@@ -515,41 +541,72 @@
 			width: auto
 		}
 
-		.bee-row-12 .bee-col-1 .bee-block-1 {
+		.bee-row-11 .bee-col-1 .bee-block-2,
+		.bee-row-11 .bee-col-2 .bee-block-2,
+		.bee-row-11 .bee-col-3 .bee-block-1,
+		.bee-row-12 .bee-col-1 .bee-block-2,
+		.bee-row-12 .bee-col-2 .bee-block-2,
+		.bee-row-12 .bee-col-3 .bee-block-2 {
 			color: #ffffff;
-			font-size: 11px;
+			direction: ltr;
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 0;
 			line-height: 120%;
 			text-align: center
 		}
 
-		.bee-row-12 .bee-col-1 .bee-block-1 a {
+		.bee-row-12 .bee-col-1 .bee-block-2 p:not(:last-child),
+		.bee-row-12 .bee-col-2 .bee-block-2 p:not(:last-child),
+		.bee-row-12 .bee-col-3 .bee-block-2 p:not(:last-child) {
+			margin-bottom: 12px
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1 {
+			color: #ffffff;
+			font-size: 12px;
+			line-height: 120%;
+			text-align: center
+		}
+
+		.bee-row-14 .bee-col-1 .bee-block-1 a {
 			color: #cfceca
 		}
 
-		.bee-row-12 .bee-col-1 .bee-block-1 p:not(:last-child) {
+		.bee-row-14 .bee-col-1 .bee-block-1 p:not(:last-child) {
 			margin-bottom: undefined
 		}
 
-		@media (max-width:768px) {
-			.bee-row-12 .bee-col-1 .bee-block-1 {
-				font-size: 10px !important
-			}
-		}
-
-		.bee-row-13 .bee-col-1 .bee-block-1 .bee-icon-image {
+		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon-image {
 			padding: 5px 6px 5px 5px
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
+		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon:not(.bee-icon-first) .bee-content {
 			margin-left: 0
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
+		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon::not(.bee-icon-last) .bee-content {
 			margin-right: 0
 		}
 
-		.bee-row-13 .bee-col-1 .bee-block-1 .bee-icon-label a {
+		.bee-row-15 .bee-col-1 .bee-block-1 .bee-icon-label a {
 			color: #1e0e4b
+		}
+
+		@media (max-width:768px) {
+			.bee-row-11 .bee-col-2 .bee-block-2 {
+				padding: 10px !important;
+				text-align: center !important;
+				font-size: 13px !important
+			}
+
+			.bee-row-12 .bee-col-1 .bee-block-2,
+			.bee-row-12 .bee-col-2 .bee-block-2,
+			.bee-row-12 .bee-col-3 .bee-block-2 {
+				padding: 10px !important;
+				text-align: center !important;
+				font-size: 16px !important
+			}
 		}
 	</style>
 </head>
@@ -568,14 +625,14 @@
 		<div class="bee-row bee-row-2">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Logo Light" class="bee-center bee-fixedwidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/1mq/mrt/f1b/client%20logo_01.png" style="max-width:154px;" title="Logo Light" /></div>
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/5af/mfo/bt0/client%20logo_01.png" style="max-width:103px;" title="" /></div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-3">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/u7b/ebh/x98/0107.png" style="max-width:1025px;" title="" /></div>
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/j6z/7i7/ld4/0107%20%281%29.png" style="max-width:1025px;" title="" /></div>
 				</div>
 			</div>
 		</div>
@@ -588,48 +645,17 @@
 					<div class="bee-block bee-block-2 bee-paragraph">
 						<p><strong>CHEERSJELLY實體快閃店據點</strong></p>
 					</div>
-					<div class="bee-block bee-block-3 bee-paragraph">
-						<p>Let's enjoy the moment</p>
-					</div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-5">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-spacer">
-						<div class="spacer" style="height:20px;"></div>
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p>Let's enjoy the moment</p>
 					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p><strong>✩ 台北 新北裕隆城 ✩</strong></p>
-						<p><strong>OPENING ｜2026 1/16-3/2</strong></p>
-						<p><strong>地址： 231新北市新店區中興路三段70號 6F</strong></p>
-						<p><strong>週日~週四11:00~21:30 </strong></p>
-						<p><strong>週五、</strong><strong>週六及假日前一天11:00~22:00</strong></p>
-						<p><strong>（營業時間＆付款方式比照百貨規範）</strong></p>
-					</div>
-					<div class="bee-block bee-block-3 bee-divider">
+					<div class="bee-block bee-block-2 bee-divider">
 						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-4 bee-paragraph">
-						<p><strong>✩ 台中 新光三越 ✩</strong></p>
-						<p><strong>OPENING  ｜2026 2/24-3/16</strong></p>
-						<p><strong>地址： 407臺中市西屯區臺灣大道三段301號</strong></p>
-						<p><strong> B2F 超市入口處</strong></p>
-						<p><strong>週一至週五 11:00–22:00 </strong></p>
-						<p><strong>例假日(六、日)提前於 10:30 營業至 22:00</strong></p>
-						<p><strong>（營業時間＆付款方式比照百貨規範）</strong>）</p>
-					</div>
-					<div class="bee-block bee-block-5 bee-divider">
-						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
-					</div>
-					<div class="bee-block bee-block-6 bee-paragraph">
-						<p><strong>✩ 桃園 遠東百貨 ✩</strong></p>
-						<p><strong>OPENING ｜2026 2/26-3/18</strong></p>
-						<p><strong>地址： 330桃園市桃園區中正路20號 B1F </strong></p>
-						<p><strong>週日至週四 11:00-21:30 </strong></p>
-						<p><strong>週五、</strong><strong>週六及例假日前一天延長營業至 22:00</strong></p>
-						<p><strong>（營業時間＆付款方式比照百貨規範）</strong></p>
 					</div>
 				</div>
 			</div>
@@ -637,19 +663,25 @@
 		<div class="bee-row bee-row-6">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Woman image" class="bee-center bee-fixedwidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/0qe/pfc/vz8/IMG_3407.jpg" style="max-width:410px;" title="Woman image" /></div>
-					<div class="bee-block bee-block-2 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p><strong>✩ 台中 新光三越 ✩<br /></strong><strong>OPENING  ｜2026 2/24-3/16<br /></strong><strong>地址： 407臺中市西屯區臺灣大道三段301號</strong><strong> <br />B2F 超市入口處<br /></strong><strong>週一至週五 11:00–22:00<br /></strong><strong>例假日(六、日)提前於 10:30 營業至 22:00<br /></strong><strong>（營業時間＆付款方式比照百貨規範）</strong></p>
 					</div>
-					<div class="bee-block bee-block-3 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/j1y/e5p/mvy/CHEERSPOPS%20LOGO%20_1.png" style="max-width:154px;" title="" /></div>
-					<div class="bee-block bee-block-4 bee-spacer">
-						<div class="spacer" style="height:60px;"></div>
+					<div class="bee-block bee-block-2 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-3 bee-paragraph">
+						<p><strong>✩ 桃園 遠東百貨 ✩</strong></p>
+						<p><strong>OPENING ｜2026 2/26-3/18</strong></p>
+						<p><strong>地址： 330桃園市桃園區中正路20號 B1F </strong></p>
+						<p><strong>週日至週四 11:00-21:30</strong></p>
+						<p><strong>週五、</strong><strong>週六及例假日前一天延長營業至 22:00</strong></p>
+						<p><strong>（營業時間＆付款方式比照百貨規範）</strong></p>
+					</div>
+					<div class="bee-block bee-block-4 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
 					</div>
 					<div class="bee-block bee-block-5 bee-heading">
-						<h1><span class="tinyMce-placeholder">為品味生活而生的甜點<br /></span> </h1>
-					</div>
-					<div class="bee-block bee-block-6 bee-paragraph">
-						<p><strong>獻給注重質感的每一刻</strong></p>
+						<h1><strong>✩ 高雄 夢時代 ✩</strong> <br /><strong>OPENING ｜2026 3/16-3/31</strong><br /><strong>地址： 806高雄市前鎮區中華五路789號 B1F<br /></strong> <strong>週日~週四11:00~22:00</strong><br /><strong>週五假日前一天11:00~22:30</strong><br /><strong> 週六及連續假日10:30~22:30</strong><br /><strong>週日及假日10:30~22:00</strong><br /><strong>（營業時間＆付款方式比照百貨規範）</strong> </h1>
 					</div>
 				</div>
 			</div>
@@ -657,11 +689,49 @@
 		<div class="bee-row bee-row-7">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-button"><a class="bee-button-content" href="https://cheerspops.com/" style="font-size: 12px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 12px; line-height: 200%; letter-spacing: 1px;"><span style="font-size: 12px;">READ MORE</span></span></a></div>
+					<div class="bee-block bee-block-1 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p><strong>✩ 桃園 新光三越 ✩</strong></p>
+						<p><strong>OPENING ｜2026 3/20-4/30</strong></p>
+						<p><strong>地址： 330桃園市桃園區中正路19號 B1F </strong></p>
+						<p><strong>週一至週日 11:00-21:30</strong></p>
+						<p><strong>（營業時間＆付款方式比照百貨規範）</strong></p>
+					</div>
+					<div class="bee-block bee-block-3 bee-divider">
+						<div class="center bee-separator" style="border-top:1px solid #dddddd;width:100%;"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-8">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w6">
+					<div class="bee-block bee-block-1 bee-image"><img alt="Woman image" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/wpy/gyk/ibq/IMG_3407.jpg" style="max-width:308px;" title="Woman image" /></div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w3">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-9">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bee-row bee-row-10">
 			<div class="bee-row-content">
 				<div class="bee-col bee-col-1 bee-col-w2">
 					<div class="bee-block bee-block-1 bee-spacer">
@@ -669,14 +739,19 @@
 					</div>
 				</div>
 				<div class="bee-col bee-col-2 bee-col-w8">
-					<div class="bee-block bee-block-1 bee-spacer">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/hm8/bbj/9th/CHEERSPOPS%20LOGO%20.png" style="max-width:102px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-spacer">
 						<div class="spacer" style="height:60px;"></div>
 					</div>
-					<div class="bee-block bee-block-2 bee-paragraph">
-						<p><strong>快閃活動限定口味 蘋果紅</strong></p>
-					</div>
 					<div class="bee-block bee-block-3 bee-paragraph">
-						<p><strong>【 消費滿額贈 只送不賣】</strong></p>
+						<p><strong>為品味生活而生的甜點</strong></p>
+					</div>
+					<div class="bee-block bee-block-4 bee-paragraph">
+						<p><strong>獻給注重質感的每一刻</strong></p>
+					</div>
+					<div class="bee-block bee-block-5 bee-button"><a class="bee-button-content" href="http://www.example.com" style="font-size: 14px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 14px; line-height: 200%; letter-spacing: 1px;"><span style="font-size: 14px;">READ MORE</span></span></a></div>
+					<div class="bee-block bee-block-6 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
 					</div>
 				</div>
 				<div class="bee-col bee-col-3 bee-col-w2">
@@ -686,49 +761,73 @@
 				</div>
 			</div>
 		</div>
-		<div class="bee-row bee-row-9">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Product Image" class="bee-center bee-autowidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/1h8/fdf/wz8/8.jpg" style="max-width:311px;" title="Product Image" /></div>
-					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content"  style="font-size: 18px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 18px; line-height: 200%; letter-spacing: 1px;">低 卡</span></a></div>
-				</div>
-				<div class="bee-col bee-col-2 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Product Image" class="bee-center bee-autowidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/tb5/xpn/i41/2.jpg" style="max-width:311px;" title="Product Image" /></div>
-					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content"  style="font-size: 18px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 18px; line-height: 200%; letter-spacing: 1px;"><span style="font-size: 18px;">時 尚</span></span></a></div>
-				</div>
-				<div class="bee-col bee-col-3 bee-col-w4">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Product Image" class="bee-center bee-autowidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/ols/pll/r4o/6.jpg" style="max-width:311px;" title="Product Image" /></div>
-					<div class="bee-block bee-block-2 bee-button"><a class="bee-button-content"  style="font-size: 18px; display: inline-block;" target="_self"><span style="word-break: break-word; font-size: 18px; line-height: 200%; letter-spacing: 1px;"><span style="font-size: 18px;">美 味</span></span></a></div>
-				</div>
-			</div>
-		</div>
-		<div class="bee-row bee-row-10">
-			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/87n/dax/tki/%E8%98%8B%E6%9E%9C%E7%B4%85.png" style="max-width:154px;" title="" /></div>
-				</div>
-			</div>
-		</div>
 		<div class="bee-row bee-row-11">
 			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-image"><img alt="Yourlogo Light" class="bee-center bee-fixedwidth" src="https://becc730eef.imgdist.com/pub/bfra/aytxy2ig/1mq/mrt/f1b/client%20logo_01.png" style="max-width:148px;" title="Yourlogo Light" /></div>
-					<div class="bee-block bee-block-2 bee-social">
-						<div class="content"><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.facebook.com/cheerspops?locale=zh_TW" target="_self"><img alt="Facebook" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-outline-circle-white/facebook@2x.png" title="facebook" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.instagram.com/cheerspopsofficial/" target="_self"><img alt="Instagram" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-outline-circle-white/instagram@2x.png" title="instagram" /></a></span></div>
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-spacer">
+						<div class="spacer" style="height:60px;"></div>
 					</div>
+					<div class="bee-block bee-block-2 bee-paragraph"></div>
+					<div class="bee-block bee-block-3 bee-paragraph"></div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-heading">
+						<h1><strong>快閃活動限定口味 蘋果紅</strong> </h1>
+					</div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p><strong>【 消費滿額贈 只送不賣】</strong></p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-paragraph"></div>
+					<div class="bee-block bee-block-2 bee-paragraph"></div>
 				</div>
 			</div>
 		</div>
 		<div class="bee-row bee-row-12">
 			<div class="bee-row-content">
-				<div class="bee-col bee-col-1 bee-col-w12">
-					<div class="bee-block bee-block-1 bee-paragraph">
-						<p>Service Time：星期一至五08:30-17:30<br />Tel：(04)7550376<br />Email : service@cheerspops.com</p>
+				<div class="bee-col bee-col-1 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/r1m/08k/odg/8.jpg" style="max-width:290px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>低卡</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-2 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/3ac/czk/rsv/6.jpg" style="max-width:290px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>時尚</p>
+					</div>
+				</div>
+				<div class="bee-col bee-col-3 bee-col-w4">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/wg7/yzs/15t/2.jpg" style="max-width:290px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-paragraph">
+						<p>美味</p>
 					</div>
 				</div>
 			</div>
-		
+		</div>
+		<div class="bee-row bee-row-13">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/yjo/vug/ldw/%E8%98%8B%E6%9E%9C%E7%B4%85.png" style="max-width:103px;" title="" /></div>
+					<div class="bee-block bee-block-2 bee-image"><img alt="" class="bee-center bee-fixedwidth" src="https://270b05f878.imgdist.com/pub/bfra/4cjjetzd/5af/mfo/bt0/client%20logo_01.png" style="max-width:103px;" title="" /></div>
+					<div class="bee-block bee-block-3 bee-social">
+						<div class="content"><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.facebook.com/cheerspops?locale=zh_TW" target="_self"><img alt="Facebook" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/facebook@2x.png" title="facebook" /></a></span><span class="icon" style="padding:0 2.5px 0 2.5px;"><a href="https://www.instagram.com/cheerspopsofficial/" target="_self"><img alt="Instagram" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-only-logo-white/instagram@2x.png" title="instagram" /></a></span></div>
+					</div>
+				</div>
 			</div>
+		</div>
+		<div class="bee-row bee-row-14">
+			<div class="bee-row-content">
+				<div class="bee-col bee-col-1 bee-col-w12">
+					<div class="bee-block bee-block-1 bee-paragraph">
+						<p style="word-break: break-word;">Service Time：星期一至五08:30-17:30<br />Tel：(04)7550376<br />Email : service@cheerspops.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div>
 </body>
 
 </html>
